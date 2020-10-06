@@ -1,0 +1,157 @@
+<!--#include file="inc/header.asp"-->
+
+	<div id="contents" class="contents">
+		<header class="spot">
+			<h2 class="h-spot">수요목록 관리</h2>
+			<div class="breadcrumb">
+				<span class="ico_ home"></span>
+				<span class="txt">home</span>
+				<span class="txt">소셜벤처  관리</span>
+				<span class="txt">수요목록 관리</span>
+			</div>
+		</header>
+		<!-- //header -->
+		<section>
+			<div class="wrap_btn">
+				<div class="aside">
+					<span class="em-weight">*</span> 필수 입력항목입니다.
+				</div>
+			</div>
+			<table class="tbl-form">
+				<caption></caption>
+				<colgroup>
+					<col class="w16">
+					<col>
+				</colgroup>
+				<tbody>
+					<tr>
+						<th scope="row"><label for=""><span class="em-weight">*</span> 수요 기관명</label></th>
+						<td>
+							<span class="wrap-radio wf100">
+								<input type="radio" name="rule" id="C1" title="" class="radio-m">
+								<label for="C1"> 성동구청</label>
+							</span>
+							<span class="wrap-radio wf100">
+								<input type="radio" name="rule" id="C2" title="" class="radio-m">
+								<label for="C2"> 일반기업</label>
+							</span>
+							<p class="txt-guide04"><input type="text" id="" class="input-m w30" value="성동구청"></p>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for=""><span class="em-weight">*</span> 담당 부서</label></th>
+						<td><input type="text" id="" class="input-m w30" value="일자리 정책과"></td>
+					</tr>
+					<tr>
+						<th scope="row"><label for=""><span class="em-weight">*</span> 담당자</label></th>
+						<td><input type="text" id="" class="input-m w30" value="이현준"></td>
+					</tr>
+					<tr>
+						<th scope="row"><label for=""><span class="em-weight">*</span> 연락처</label></th>
+						<td>
+							<div class="wrap-input">
+								<input id="" type="text" class="input-m wf100">
+								<span class="txt-dash">-</span>
+								<input id="" type="text" class="input-m wf100">
+								<span class="txt-dash">-</span>
+								<input id="" type="text" class="input-m wf100">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for=""><span class="em-weight">*</span> 이메일</label></th>
+						<td>
+							<div class="wrap-input">
+								<input id="" type="text" class="input-m wf100">
+								<span class="txt-dash">@</span>
+								<input id="" type="text" class="input-m wf100">
+								&nbsp;
+								<select id="" class="select-m wf300" title="">
+									<option value="" selected="selected">선택</option>
+									<option value="">naver.com</option>
+									<option value="">gmail.com</option>
+									<option value="">hanmail.net</option>
+									<option value="">nate.com</option>
+									<option value="">yahoo.co.kr</option>
+									<option value="">yahoo.com</option>
+									<option value="">직접입력</option>
+								</select>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for=""><span class="em-weight">*</span> 분류</label></th>
+						<td>
+							<div class="wrap-input">
+								<select id="" class="select-m wf140" title="">
+									<option value="" selected="selected">분류 선택</option>
+									<option value="">청소/환경</option>
+									<option value="">교육/돌봄</option>
+									<option value="">제조/유통</option>
+									<option value="">문화/예술</option>
+									<option value="">사무용품</option>
+									<option value="">인쇄/출판</option>
+									<option value="">기타</option>
+								</select>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="">품목</label></th>
+						<td><input type="text" id="" class="input-m w100"></td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="">예산</label></th>
+						<td><input type="text" id="" class="input-m w30"></td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="" class="txt-label">내용</label></th>
+						<td>
+							<textarea name="" id="" class="textarea-m w100 hf100" title="내용">A4용지 1박스, 종이컵 30줄 1박스, 화장지 24롤 필요 합니다.</textarea>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for=""><span class="em-weight">*</span> 수요희망기간</label></th>
+						<td>
+							<input type="text" class="input-m wf120" title="시작날짜 입력"> <a href="" class="ico_ date">날짜 검색</a>
+							<span class="txt-wave">~</span>
+							<input type="text" class="input-m wf120" title="종료날짜 입력"> <a href="" class="ico_ date">날짜 검색</a>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="">등록일</label></th>
+						<td>2019년 8월 1일 (삭제일: 2019년 9월 1일)</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="">게시여부</label></th>
+						<td>
+							<div class="inner w50">
+								<span class="wrap-radio wf60">
+									<input type="radio" id="" title="게시여부:예" class="radio-m">
+									<label for="" class=""> Y</label>
+								</span>
+								<span class="wrap-radio wf60">
+									<input type="radio" id="" title="게시여부:아니요" class="radio-m">
+									<label for="" class=""> N</label>
+								</span>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--//tbl-form -->
+		</section>
+		<div class="wrap_btn02">
+			<div class="aside">
+				<a href="" class="btn1-m-slight">삭제</a>
+			</div>
+			<a href="" class="btn1-m-weight">등록</a>
+			<a href="A.html" class="btn1-m-slight2">목록</a>
+		</div>
+	</div>
+	<!--//contents -->
+
+</div>
+<!-- //wrap -->
+</body>
+</html>
